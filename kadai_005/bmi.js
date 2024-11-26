@@ -10,7 +10,7 @@ height = 1.7;
 
 // 変数の宣言
 let bmi;
-bmi = 68 / (1.7 * 1.7);
+bmi = weight / (height * height);
 
 // BMIの計算
 console.log(bmi);
